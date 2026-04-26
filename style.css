@@ -53,7 +53,7 @@ button {
     color: rgb(100, 21, 255);
 }
 
-*/NAV*/
+/*NAV*/
 
 nav {
     padding-top: 32px;
@@ -84,6 +84,7 @@ nav {
 }
 
 .nav__links {
+    display: flex;
     align-items: center;
     padding-bottom: 2px;
 }
@@ -126,7 +127,7 @@ a {
 }
 
 
-*/MENU*/
+/*MENU*/
 
 .menu {
     position: fixed;
@@ -182,7 +183,7 @@ a {
     border-bottom: 2px solid transparent;
 }
 
-.menu_link--pramary {
+.menu__link--primary {
     color: rgb(247, 250, 252);
     padding: 12px 32px;
     background: rgb(100, 21, 255);
@@ -193,7 +194,7 @@ a {
     border-image: initial;
 }
 
-*/HEADER*/
+/*HEADER*/
 
 header {
     position: relative;
@@ -274,7 +275,7 @@ img {
     width: 100%;
 }
 
-*/FEATURES*/
+/*FEATURES*/
 
 #features {
     position: relative;
@@ -332,7 +333,7 @@ section {
     display: flex;
 }
 
-*/QUALITY*/
+/*QUALITY*/
 
 #quality .row {
     display: flex;
@@ -341,7 +342,7 @@ section {
 }
 
 .section__title {
-    font-weight: 900px;
+    font-weight: 900;
     color: rgb(36, 62, 99);
     letter-spacing: 0.025em;
     margin: 16px 0;
@@ -383,7 +384,7 @@ section {
     display: block;
 }
 
-*/STEPS*/
+/*STEPS*/
 
 #steps .row {
     display: flex;
@@ -449,7 +450,7 @@ section {
     line-height: 2;
 }
 
-*/VALUES*/
+/*VALUES*/
 
 #values .row {
     display: flex;
@@ -528,7 +529,7 @@ section {
     margin-top: 48px;
 }
 
-*/PRICING */
+/*PRICING */
 
 #pricing .row {
     display: flex;
@@ -700,7 +701,7 @@ section {
     opacity: 0.25;
 }
 
-*/TESTIMONIALS*/
+/*TESTIMONIALS*/
 
 #testimonials .row {
     margin-left: auto;
@@ -830,7 +831,7 @@ section {
 }
 
 
-*/START*/
+/*START*/
 
 
 #start .row {
@@ -895,7 +896,7 @@ section {
     transition: 300ms;
 }
 
-*/ FOOTER*/
+/* FOOTER*/
 
 .footer__blob--1 {
     position: absolute;
