@@ -215,6 +215,10 @@ header .row {
     margin: 0 auto;   
 }
 
+.header__description {
+    width: 40%;
+}
+
 p {
     line-height: 1.5;
 }
