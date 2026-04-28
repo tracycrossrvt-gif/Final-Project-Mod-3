@@ -11,6 +11,9 @@ body {
     overflow-x: hidden;
 }
 
+img {
+    width:100%;
+}
 section {
     padding: 0 32px;
 }
@@ -44,6 +47,14 @@ button {
     transition: 300ms;
 }
 
+.section__title {
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(36, 62, 99);
+    line-height: 1.5;
+    margin: 16px 0;
+    letter-spacing: 0.025em;
+}
 .row {
     width: 100%;
     max-width: 1280px;
@@ -276,9 +287,6 @@ p {
     opacity: 0.5;
 }
 
-img {
-    width: 100%;
-}
 
 .header__img {
     width: 100%;
@@ -366,12 +374,7 @@ section {
 #quality .section__title, #values .section__title {
     line-height: 1.25;
 }
-.section__title {
-    font-weight: 900;
-    color: rgb(36, 62, 99);
-    letter-spacing: 0.025em;
-    margin: 16px 0;
-}
+
 
 .section__para {
     font-weight: 500;
@@ -704,9 +707,18 @@ section {
     font-size: 0.875rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    padding: 1rem 2rem;
-    transition: 300ms;
+    padding: 0.75rem, 2rem;
+    transition: all 300ms ease;
     border-radius: 9999px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.plan__bottom {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .plan:nth-child(2) {
@@ -847,7 +859,6 @@ section {
 }
 
 .testimonials__img {
-    border-radius: 50%;
     width: 50%;
 }
 
@@ -863,7 +874,7 @@ section {
 }
 
 .testimonial__role {
-    color: rgb(124, 139, 161);
+    color: #7c8ba1;
     font-weight: 500;
     line-height: 1.5;
 }
@@ -878,10 +889,10 @@ section {
     justify-content: center;
     align-items: center;
     padding: 16px;
-    background: rgb(237, 242, 247);
+    background: #edf2f7;
     border-radius: 50%;
     margin: 0px 12px;
-    transition: 300ms;
+    transition: all 300ms ease;
 }
 
 .divider {
@@ -994,6 +1005,7 @@ footer {
 .footer__columns {
     margin-top: -48px;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -1048,6 +1060,7 @@ footer {
 .footer__bottom {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .footer__logo {
@@ -1062,20 +1075,21 @@ footer {
 
 .footer__logo--text {
     font-size: 20px;
-    color: rgb(247, 250, 252);
+    color: #f7fafc;
     font-weight: 900;
     margin-left: 8px;
     letter-spacing: 0.05em;
 }
 
 .footer__copyright {
-    color: rgb(203, 213, 224);
+    color: #cbd5e0;
     font-weight: 500;
 }
 
 .footer__socials {
     display: flex;
     align-items: center;
+    margin-left: 16px;
 }
 
 .footer__social--link {
@@ -1088,6 +1102,28 @@ footer {
     background: rgb(247, 250, 252);
     border-radius: 50%;
     transition: 300ms;
+}
+
+.footer__blob--1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 320px;
+    height: 320px;
+    transform: translateX(-80px) translateY(-128px);
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.footer__blob--2 {
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   width: 320px;
+   height: 320px;
+   transform: translateX(128px) translateY(192px);
+    z-index: 1;
+    opacity: 0.5;
 }
 
 
