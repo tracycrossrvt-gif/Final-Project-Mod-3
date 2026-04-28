@@ -363,7 +363,9 @@ section {
     justify-content: space-between;
     align-items: center;
 }
-
+#quality .section__title, #values .section__title {
+    line-height: 1.25;
+}
 .section__title {
     font-weight: 900;
     color: rgb(36, 62, 99);
@@ -391,6 +393,10 @@ section {
     border-color: rgb(229, 231, 235);
     margin: 0 56px;
     flex-direction: row;
+}
+
+.quality__img {
+    z-index: 1;
 }
 
 .quality__grid {
@@ -449,11 +455,12 @@ section {
 
 .step {
     display: flex;
+    align-items: flex-start;
     margin-top: 32px;
 }
 
 .step__number {
-    color: rgb(203, 213, 224);
+    color: #cbd5e0;
     font-size: 36px;
     font-weight: 600;
     line-height: 1;
@@ -462,6 +469,7 @@ section {
 .step__description {
     display: flex;
     flex-direction: column;
+    margin-left: 24px;
     max-width: 320px;
 }
 
